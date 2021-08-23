@@ -1,13 +1,20 @@
 # Landing Page Project
+url  https://eslam-hosny.github.io/landing-page-fwd-review2/
 
 ## Table of Contents
+1. Add an active state to your navigation items when a section is in the viewport.
+2. Hide fixed navigation bar while not scrolling (it should still be present on page load).
+3. Add a scroll to top button on the page that’s only visible when the user scrolls below the fold of the page.
+4. Update/change the design/content.
+5. Make sections collapsible.
 
-* [Instructions](#instructions)
 
-## Instructions
+## my code 
+1. creat the function to  loop all section and make nav list iteam
+2. make  all page move smooth by target html elment
+3. add button function TO MAKE button display none on the top of the bage and go up on page
+4. make function  by IntersectionObserver to active the class of hiligth 
+  in nav bar when the section appears in the viewport and active the section background 
+  by add class your-active-class to the section when section in view port
+5.  make page responsive 
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
